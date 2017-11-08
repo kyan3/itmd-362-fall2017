@@ -11,6 +11,15 @@ a,abbr,acronym,address,applet,article,aside,audio,b,big,blockquote,body,canvas,c
 /* Forms
    ========================================================================== */
 
+
+   body{
+		font-family: 'Roboto', sans-serif;
+
+   }
+   h1{
+		font-size:40px;
+   }
+   
 /**
  * 1. Change the font styles in all browsers (opinionated).
  * 2. Remove the margin in Firefox and Safari.
@@ -25,6 +34,7 @@ textarea {
   font-size: 100%; /* 1 */
   line-height: 1.15; /* 1 */
   margin: 0; /* 2 */
+  background-color: #DCDCDC;
 }
 
 /**
